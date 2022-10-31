@@ -1,18 +1,25 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+  <div>
+    <img alt="Vue logo" src="./assets/logo.png">
+  <Log_in msg="Welcome to Your StartApp App"/>
+  </div>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import Home from './components/Home.vue'
+import Log_in from './components/Log_in.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    // Home,
+    Log_in,
 }
+} 
 </script>
+
 
 <style>
 #app {
